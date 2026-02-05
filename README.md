@@ -12,6 +12,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/justinas/nba-players-data)
 
 **🚀 Transforma datos crudos de la NBA en insights de valor mediante pipelines ETL y visualizaciones profesionales**
 
@@ -300,11 +301,21 @@ summary = cleaner.get_cleaning_summary() # Resumen de limpieza
 
 ## 🏀 Dataset NBA All Seasons
 
+### 📦 Fuente de Datos
+
+**Dataset Original:** [NBA Players Data - Kaggle](https://www.kaggle.com/datasets/justinas/nba-players-data?select=all_seasons.csv)
+
+Este proyecto utiliza el dataset público `all_seasons.csv` disponible en Kaggle, que contiene estadísticas completas de jugadores de la NBA desde la temporada 1996-97 hasta 2022-23.
+
+> **📝 Nota**: Para usar este proyecto, descarga el archivo `all_seasons.csv` desde Kaggle y colócalo en la ruta `app/Extract/Files/all_seasons.csv`
+
 ### 🏆 Descripción del Dataset
 
 **📊 Cobertura Temporal:** 27 temporadas NBA (1996-97 a 2022-23)  
 **👥 Jugadores:** ~12,844 registros de jugadores únicos por temporada  
-**📈 Estadísticas:** 22 columnas de datos especializados
+**📈 Estadísticas:** 22 columnas de datos especializados  
+**📁 Tamaño:** ~2.5 MB (CSV comprimido)  
+**🔄 Actualización:** Dataset estático (última actualización 2023)
 
 ### 📋 Estructura de Datos (22 Columnas)
 
@@ -376,7 +387,18 @@ git clone https://github.com/JavierMPlata/AnaliticaDeDatos.git
 cd AnaliticaDeDatos
 ```
 
-#### **Paso 2: Crear Entorno Virtual (Recomendado)**
+#### **Paso 2: Descargar el Dataset**
+1. Visita [Kaggle - NBA Players Data](https://www.kaggle.com/datasets/justinas/nba-players-data)
+2. Descarga el archivo `all_seasons.csv`
+3. Coloca el archivo en: `app/Extract/Files/all_seasons.csv`
+
+```bash
+# Estructura esperada
+app/Extract/Files/
+└── all_seasons.csv  # ← Coloca el archivo aquí
+```
+
+#### **Paso 3: Crear Entorno Virtual (Recomendado)**
 ```bash
 # Crear entorno virtual
 python -m venv .venv
@@ -388,7 +410,7 @@ source .venv/bin/activate
 # .venv\Scripts\activate
 ```
 
-#### **Paso 3: Instalar Dependencias**
+#### **Paso 4: Instalar Dependencias**
 ```bash
 pip install -r requirements.txt
 
@@ -564,8 +586,6 @@ visualizer.create_all_visualizations()
 
 ---
 
----
-
 ## 👥 Participantes
 
 Este proyecto fue desarrollado por:
@@ -594,9 +614,19 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg?style=for-the-badge)]()
 [![Powered by Python](https://img.shields.io/badge/Powered%20by-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![NBA Data](https://img.shields.io/badge/NBA-Data-FF6B35?style=for-the-badge)]()
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/justinas/nba-players-data)
 
 **🌟 Si este proyecto te fue útil, considera darle una estrella en GitHub**
 
 [⭐ Star en GitHub](https://github.com/JavierMPlata/AnaliticaDeDatos) • [🐛 Reportar Bug](https://github.com/JavierMPlata/AnaliticaDeDatos/issues) • [💡 Solicitar Feature](https://github.com/JavierMPlata/AnaliticaDeDatos/issues/new)
+
+---
+
+### 📦 Fuente de Datos
+
+**Dataset:** [NBA Players Data (1996-2023)](https://www.kaggle.com/datasets/justinas/nba-players-data?select=all_seasons.csv)  
+**Autor:** Justinas Cirtautas  
+**Plataforma:** Kaggle  
+**Licencia:** CC0: Public Domain
 
 </div>
