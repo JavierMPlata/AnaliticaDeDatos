@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(BASE_DIR, 'Extract', 'files', 'all_seasons.csv')
 
 # Ruta para guardar datos limpios
-CLEANED_DATA_PATH = os.path.join(BASE_DIR, 'data', 'all_seasons_cleaned.csv')
+CLEANED_DATA_PATH = os.path.join(BASE_DIR, 'Extract', 'Files', 'all_seasons_cleaned.csv')
 
 # Puedes agregar más configuraciones aquí
 

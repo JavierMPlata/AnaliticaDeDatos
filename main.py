@@ -33,6 +33,7 @@ def main():
 
 	# Cargar los datos limpios
 	loader = Loader(cleaned_data)
+	loader.to_csv('app/Extract/Files/all_seasons_cleaned.csv')
 	loader.to_sqlite()
 
 if __name__ == "__main__":
