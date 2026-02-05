@@ -573,7 +573,7 @@ Este proyecto fue desarrollado por:
 🔹 [Sebastián Fandi](https://github.com/Sebastianfandi24)  
 🔹 [Johan Camilo Mesa](https://github.com/JohanCamiloMesa)  
 🔹 [Miguel Bonilla](https://github.com/MiguelBonilla-sys)  
-🔹 [Javier M. Plata](https://github.com/JavierMPlata)(https://github.com/MiguelBonilla-sys)
+🔹 [Javier M. Plata](https://github.com/JavierMPlata)
 
 </div>
 
